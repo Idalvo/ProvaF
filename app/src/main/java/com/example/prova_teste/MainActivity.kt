@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
     fun rollDice(){
         val randomInt = (1..6).random()
-        val resultTextView: TextView = findViewById(R.id.rollDice)
+        val resultTextView: TextView = findViewById(R.id.resultText)
         resultTextView.text = randomInt.toString()
     }
 }
